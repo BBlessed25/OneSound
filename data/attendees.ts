@@ -96,5 +96,7 @@ export const attendees: Attendee[] = [
   { id: 85, name: 'Tisha', phone: '6476150222', email: 'Tinawill12@yahoo.ca', location: 'North York' },
   { id: 86, name: 'Suzanne Rego', phone: '4167313757', email: 'Suzanne.rego97@gmail.com', location: 'Mississauga' },
   { id: 87, name: 'Adewale Adesokan', phone: '4378488811', email: 'adesokanadewale1323@gmail.com', location: 'Scarborough, Toronto' },
-  { id: 88, name: 'Adebowale Adepoju', phone: '6474629380', email: 'deboadepoju14@gmail.com', location: 'Etobicoke' }
+  { id: 88, name: 'Adebowale Adepoju', phone: '6474629380', email: 'deboadepoju14@gmail.com', location: 'Etobicoke' },
+  { id: 89, name: 'Nadine Campbell', phone: '647 548 9207', email: 'Nadinecampbell92@hotmail.com', location: 'Toronto' },
+  { id: 90, name: 'Toyin Poju Ogunniyi', phone: '6477633141', email: 'toyina2c@gmail.com', location: 'North York' }
 ]
