@@ -110,5 +110,8 @@ export const attendees: Attendee[] = [
   { id: 100, name: 'Nelson Emmanuel', phone: '2263745239', email: 'czarmondragon@gmail.com', location: '' },
   { id: 101, name: 'John', phone: '5194942523', email: 'Odiasejohn123@gmail.com', location: '' },
   { id: 102, name: 'Rocklyn Oizuamu', phone: '647-973-4692', email: 'rocklynoizuamu@gmail.com', location: '' },
-  { id: 103, name: 'Prince Asa', phone: '4377845282', email: 'asamills1989@gmail.com', location: '' }
+  { id: 103, name: 'Prince Asa', phone: '4377845282', email: 'asamills1989@gmail.com', location: '' },
+  { id: 104, name: 'Esther Obodozie', phone: '4372458282', email: '', location: '' },
+  { id: 105, name: 'Celina Dias', phone: '647 571 6592', email: '', location: '' },
+  { id: 106, name: 'Augustine Dias', phone: '647 571 6592', email: '', location: '' }
 ]
