@@ -97,5 +97,18 @@ export const attendees: Attendee[] = [
   { id: 87, name: 'Shirley Cangoy', phone: '416 833 3784', email: 'sherlycangoy@yahoo.com', location: 'North York' },
   { id: 88, name: 'Merlita Cangoy', phone: '4168333784', email: 'sherlycangoy@gmail.com', location: 'North York' },
   { id: 89, name: 'Francisco Gasatan', phone: '6476741511', email: 'gasatanfrancisco@gmail.com', location: 'North York' },
-  { id: 90, name: 'Jinlian Xiao', phone: '4373290363', email: 'Dongyazou2002new@gmail.com', location: 'Scarborough' }
+  { id: 90, name: 'Jinlian Xiao', phone: '4373290363', email: 'Dongyazou2002new@gmail.com', location: 'Scarborough' },
+  { id: 91, name: 'Temi', phone: '6478198719', email: 'Temimindz@gmail.com', location: '' },
+  { id: 92, name: 'Eliza', phone: '647889945', email: 'temz@gmail.com', location: '' },
+  { id: 93, name: 'Stella', phone: '', email: '', location: '' },
+  { id: 94, name: 'Pally Moss', phone: '647 575 5032', email: 'Pallymoss2019@gmail.com', location: '' },
+  { id: 95, name: 'Ebuka Mozie', phone: '4372469473', email: 'mozieebuka111@gmail.com', location: '' },
+  { id: 96, name: 'Tamunokuro Fombo', phone: '9054397535', email: 'tamunkuro@gmail.com', location: '' },
+  { id: 97, name: 'Zane', phone: '6478892389', email: 'Zanemo@gmail.com', location: '' },
+  { id: 98, name: 'Zuzu', phone: '6478881092', email: 'Zuzu100@gmail.com', location: '' },
+  { id: 99, name: 'Obina Trisha', phone: '4374558299', email: 'Obinatrisha@gmail.com', location: '' },
+  { id: 100, name: 'Nelson Emmanuel', phone: '2263745239', email: 'czarmondragon@gmail.com', location: '' },
+  { id: 101, name: 'John', phone: '5194942523', email: 'Odiasejohn123@gmail.com', location: '' },
+  { id: 102, name: 'Rocklyn Oizuamu', phone: '647-973-4692', email: 'rocklynoizuamu@gmail.com', location: '' },
+  { id: 103, name: 'Prince Asa', phone: '4377845282', email: 'asamills1989@gmail.com', location: '' }
 ]
