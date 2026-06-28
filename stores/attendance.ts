@@ -31,19 +31,31 @@ export const useAttendanceStore = defineStore('attendance', {
     total: (state) => state.attendees.length,
     filtered(state): Attendee[] {
       const q = state.query.trim().toLowerCase()
-      return state.attendees.filter((a) => {
+      const qDigits = q.replace(/\D/g, '')
+
+      const matches = state.attendees.filter((a) => {
         const status = state.statuses[a.id] ?? null
         if (state.filter === 'present' && status !== 'present') return false
         if (state.filter === 'absent' && status !== 'absent') return false
         if (state.filter === 'unmarked' && status !== null) return false
         if (!q) return true
-        return (
+
+        const textHit =
           a.name.toLowerCase().includes(q) ||
           a.email.toLowerCase().includes(q) ||
-          a.phone.toLowerCase().includes(q) ||
-          a.location.toLowerCase().includes(q)
-        )
+          a.location.toLowerCase().includes(q) ||
+          a.phone.toLowerCase().includes(q)
+
+        // Match phone numbers regardless of spaces/dashes/parentheses.
+        const phoneHit =
+          qDigits.length > 0 && a.phone.replace(/\D/g, '').includes(qDigits)
+
+        return textHit || phoneHit
       })
+
+      return matches.sort((a, b) =>
+        a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })
+      )
     }
   },
 
